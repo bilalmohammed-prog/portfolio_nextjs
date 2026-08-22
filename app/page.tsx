@@ -9,7 +9,7 @@ export default function Home() {
       />
 
       {/* Navigation */}
-      <header className="sticky top-0 z-50 backdrop-blur-md bg-background/70 border-b border-border">
+      <header className="sticky top-0 z-50 bg-background border-b border-border">
         <div className="max-w-[1120px] mx-auto px-7 py-4.5 flex items-center justify-between">
           <Link href="#top" className="font-mono text-[0.88rem] tracking-tight flex items-center gap-2">
             bilal<span className="text-primary">.</span>mohammed <span className="text-muted-foreground">/ dev</span>
@@ -286,15 +286,16 @@ export default function Home() {
         {/* Contact Section */}
         <section id="contact" className="py-21 px-7">
           <div className="max-w-[1120px] mx-auto">
-            <div className="border border-border rounded-lg p-13 text-center bg-card relative bg-[radial-gradient(ellipse_60%_100%_at_50%_0%,color-mix(in_oklab,var(--color-primary)_6%,transparent),transparent_70%)]">
+            {/* Removed the radial-gradient class completely */}
+            <div className="border border-border rounded-lg p-13 text-center bg-card relative">
               <p className="font-mono text-[0.72rem] tracking-[0.14em] uppercase text-primary flex justify-center mb-2">// contact</p>
               <h2 className="font-sans font-semibold text-[clamp(1.7rem,3vw,2.4rem)]">Let's build something scoped correctly.</h2>
               <p className="text-muted-foreground mt-3.5 mx-auto max-w-[50ch]">Open to internships, collaborations, and conversations about systems design. Reach out directly.</p>
               <div className="flex gap-3.5 justify-center flex-wrap mt-8 font-mono text-[0.82rem]">
-                <a className="px-5 py-3 rounded-md bg-primary text-primary-foreground font-semibold hover:opacity-90 transition-all">
+                <a href="mailto:bilalmohammed333999@gmail.com" className="px-5 py-3 rounded-md bg-primary text-primary-foreground font-semibold hover:opacity-90 transition-all">
                   bilalmohammed333999@gmail.com
                 </a>
-                <a className="px-5 py-3 rounded-md bg-card border border-border text-card-foreground hover:border-[color-mix(in_oklab,var(--color-primary)_35%,transparent)] transition-all">
+                <a href="tel:+919059211522" className="px-5 py-3 rounded-md bg-card border border-border text-card-foreground hover:border-[color-mix(in_oklab,var(--color-primary)_35%,transparent)] transition-all">
                   +91 90592 11522
                 </a>
                 <a href="https://linkedin.com/in/bilal-mohammed-webdev" target="_blank" rel="noopener noreferrer" className="px-5 py-3 rounded-md bg-card border border-border text-card-foreground hover:border-[color-mix(in_oklab,var(--color-primary)_35%,transparent)] transition-all">
