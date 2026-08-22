@@ -77,7 +77,7 @@ export default function Home() {
                 {'  '}<span className="text-primary">on</span> tasks <span className="text-primary">for all</span>{'\n'}
                 {'  '}<span className="text-primary">using</span> ({'\n'}
                 {'    '}org_id = <span className="text-emerald-500">auth.org_id</span>(){'\n'}
-                {'  '});<span className="inline-block w-1.75 h-[1em] bg-primary align-text-bottom ml-0.5 animate-pulse" />
+                {'  '});<span className="inline-block h-[1em] w-[7px] bg-[var(--ring)] align-text-bottom animate-[blink_1.1s_steps(1)_infinite]" />
               </div>
               <div className="m-1.5 mx-5 mb-5.5 p-5 pt-4 border border-dashed border-[color-mix(in_oklab,var(--color-primary)_35%,transparent)] rounded-lg relative">
                 <span className="absolute -top-2.25 left-3.5 bg-card px-2 font-mono text-[0.64rem] tracking-[0.08em] uppercase text-primary">
